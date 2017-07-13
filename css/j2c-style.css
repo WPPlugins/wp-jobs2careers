@@ -1,0 +1,182 @@
+
+/***********************
+1.0 Job page and form 
+***********************/
+
+.j2c-display-numbers {
+	float:left;
+}
+
+.j2c-jobs { 
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#j2c-search-form {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px 0 10px 0;
+}
+
+.j2c-form-field {
+	padding: 0; 
+}
+
+#j2c-location, 
+#j2c-keywords {
+	margin: 0;
+	box-sizing: border-box;
+	height: 45px;
+	border: 1px solid;
+	font-size: 16px;
+	padding-left: 5px;
+}
+
+#j2c-location::-webkit-input-placeholder, 
+#j2c-keywords::-webkit-input-placeholder,
+#j2c-location::-moz-placeholder, 
+#j2c-keywords::-moz-placeholder,
+#j2c-location:-ms-input-placeholder, 
+#j2c-keywords:-ms-input-placeholder,
+#j2c-location:-moz-input-placeholder, 
+#j2c-keywords:-moz-input-placeholder {
+	color: #f9f9f9 !important;
+}
+
+#j2c-submit-form {
+	height: 45px;
+	line-height: 0;
+	font-size: 16px;	
+	margin-bottom: 10px;
+}
+
+.j2c-attribution {
+	float: right;
+	vertical-align: text-top;
+}
+
+#j2c-jobs-by-link {
+	float: left;
+}
+
+#j2c-jobs-by-link a {
+	text-decoration: none;
+}
+
+#j2c-jobs-by-image {
+	float: right;
+}
+.j2c-attribution-image {
+	vertical-align: text-bottom;
+}	
+
+#j2c-advanced-link {
+	text-align: center;
+}
+
+/***********************
+1.1 Advanced/filter layout
+***********************/
+
+.j2c-advanced-option-content {
+	max-width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#j2c-search-title {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#j2c-search-title-span {
+	float: left;
+	margin-bottom: 5px;
+}
+
+#j2c-search-title-checkbox {
+	margin-left: auto;
+}
+
+.j2c-advanced-dropdown {
+	margin-bottom: 20px;
+}
+
+#j2c_advanced_form_keywords,
+#j2c_advanced_form_location {
+	border: 1px solid;
+	padding-left: 5px;
+	margin-bottom: initial;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#j2c_advanced_form_location::-webkit-input-placeholder, 
+#j2c_advanced_form_keywords::-webkit-input-placeholder,
+#j2c_advanced_form_location::-moz-placeholder, 
+#j2c_advanced_form_keywords::-moz-placeholder,
+#j2c_advanced_form_location:-ms-input-placeholder, 
+#j2c_advanced_form_keywords:-ms-input-placeholder,
+#j2c_advanced_form_location:-moz-input-placeholder, 
+#j2c_advanced_form_keywords:-moz-input-placeholder {
+	color: #f9f9f9 !important;
+}
+
+.j2c-advanced-search-h2 {
+	text-align: center;
+}
+
+.j2c-sort-links {
+	float: right;
+}
+
+.j2c-relevance-margin {
+	margin-right: 15px;
+}	
+
+.j2c-numbers-and-sort-div {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.j2c-sort-links a {
+	text-decoration: none;
+}
+
+/***********************
+1.2 Pagination 
+***********************/
+
+.j2c-pagination {
+	text-align: center;
+	margin: 0 auto;
+} 
+
+.j2c-pagination > a, 
+.j2c-pagination > span {
+	margin-right: 2px;
+	margin-left: 2px;
+	font-size: 1.2em;
+}
+
+/***********************
+2.0 Individual job layout
+***********************/
+
+.j2c-jobtitle {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.j2c-company {
+	font-weight: bold;
+}
+
+.j2c-time-posted {
+	font-weight: bold;
+}

@@ -1,0 +1,70 @@
+
+/***********************
+1.0 Form Div layout
+***********************/
+
+.j2c-right-left-div-wrapper {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: auto;
+}
+
+.j2c-admin-left-div {
+	float: left;
+	width: 25%;
+}
+
+.j2c-admin-right-div {
+	float: right;
+	width: 75%;
+}
+
+.j2c-admin-form label {
+	padding-right: 20px;
+}
+
+/* Font size for text, labels, and input */
+.j2c-admin-form p, 
+.j2c-admin-form label, 
+.j2c-admin-form span, 
+.j2c-admin-form input, 
+.j2c-admin-form select, 
+.j2c-admin-form code {
+	font-size: 14px;
+}
+
+#j2c_logo_attribution {
+	vertical-align: text-bottom;
+}
+
+/***********************
+1.1 API Key and base keywords
+***********************/
+
+.j2c-api-key-text,
+.j2c-publisher-password, 
+.j2c-default-keywords-text,
+.j2c_default_location {
+	width: 400px;
+}
+
+#j2c_display_page {
+	max-width: 400px;
+}
+
+/***********************
+1.2 Media queries
+***********************/
+
+@media screen and ( max-width: 680px ) {
+	.j2c-api-key-text, 
+	.j2c-publisher-password, 
+	.j2c-default-keywords-text,
+	.j2c_default_location,
+	#j2c_display_page
+	 {
+		width: 250px;
+	}
+}
